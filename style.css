@@ -29,8 +29,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   background-color: var(--Dark-Blue, #1f2633);
+  padding-top: 120px;
 }
 
 article {
@@ -96,6 +96,9 @@ article button:active {
 }
 
 @media screen and (min-width: 1024px) {
+  body {
+    padding-top: 223px;
+  }
   article {
     padding: 48px;
     padding-bottom: 72px;
